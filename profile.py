@@ -21,7 +21,7 @@ def profile():
     user_gender='OTHERS'
     
   #LABELS
-  Label(profile_screen,text="NAME           :"+user_name,font=("calibri",17)).grid(row=2,sticky=N,pady=10)
+  Label(profile_screen,text="NAME         :"+user_name,font=("calibri",17)).grid(row=2,sticky=N,pady=10)
   Label(profile_screen,text="AGE            :"+user_age,font=("calibri",17)).grid(row=4,sticky=N,pady=10)
   Label(profile_screen,text="GENDER         :"+user_gender,font=("calibri",17)).grid(row=6,sticky=N,pady=10)
   Label(profile_screen,text="MOBILE NUMBER   :"+user_phno,font=("calibri",17)).grid(row=8,sticky=N,pady=10)
